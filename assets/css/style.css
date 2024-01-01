@@ -1004,7 +1004,7 @@ section {
 
 .contact .info h4,
 .contact .info p {
-  margin-left: 44px; /* Adjusted margin-left to align with the icon */
+  margin-left: 2px; /* Adjusted margin-left to align with the icon */
   font-size: 22px; /* Keeping font size consistent for h4 */
   font-weight: 600; /* Keeping font weight consistent for h4 */
   margin-bottom: 5px; /* Keeping margin bottom consistent for h4 */
