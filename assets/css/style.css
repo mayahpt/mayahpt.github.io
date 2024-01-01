@@ -984,9 +984,8 @@ section {
 --------------------------------------------------------------*/
 .contact .info {
   display: flex;
-  justify-content: center; /* Horizontally center the items */
-  align-items: center; /* Vertically align the items */
-  flex-wrap: wrap; /* Enable wrapping for smaller screens */
+  justify-content: center; /* Center flex items horizontally */
+  flex-wrap: wrap; /* Wrap items to next line on small screens */
 }
 
 .contact .info i {
@@ -1020,9 +1019,9 @@ section {
 
 .contact .info .email, 
 .contact .info .phone {
-  flex: 1; /* Make the divs flexible */
-  margin: 10px; /* Add some margin for spacing */
-  text-align: left; /* Align the text to the left within each box */
+  margin: 10px; /* Spacing around each item */
+  flex-basis: calc(50% - 20px); /* Adjust the width of each item */
+  text-align: center; /* Center-align the content */
 }
 
 .contact .info .email:hover i,
