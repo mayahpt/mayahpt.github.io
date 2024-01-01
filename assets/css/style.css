@@ -425,7 +425,7 @@ section {
 .about .content ul li {
   margin-bottom: 20px;
   display: flex;
-  align-items: center;
+  align-items: left;
 }
 
 .about .content ul strong {
@@ -1187,6 +1187,6 @@ section {
   font-size: 13px;
 }
 
-#About, #Resume, #Portfolio, #Skills, #Contact {
+#ABOUT, #RESUME, #PORTFOLIO, #SKILLS, #CONTACT {
   text-align: left; /* or center... or 'right' */
 }
