@@ -997,9 +997,9 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 50px;
+  border-radius: 20px;
   transition: all 0.3s ease-in-out;
-  margin-right: 10px; /* Added margin to the right of the icon */
+  margin-right: 2px; /* Added margin to the right of the icon */
 }
 
 .contact .info h4,
