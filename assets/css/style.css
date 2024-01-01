@@ -983,9 +983,10 @@ section {
 # Contact
 --------------------------------------------------------------*/
 .contact .info {
-  width: 100%;
-  background: #fff;
-  text-align. center;
+  display: flex;
+  justify-content: center; /* Horizontally center the items */
+  align-items: center; /* Vertically align the items */
+  flex-wrap: wrap; /* Enable wrapping for smaller screens */
 }
 
 .contact .info i {
@@ -1017,11 +1018,11 @@ section {
   color: #728394;
 }
 
-.contact .info .email,
+.contact .info .email, 
 .contact .info .phone {
-    margin-top: 40px;
-    width: 100%; /* Set the width to occupy the full container width */
-    display: block; /* Make each element a block-level element */
+  flex: 1; /* Make the divs flexible */
+  margin: 10px; /* Add some margin for spacing */
+  text-align: left; /* Align the text to the left within each box */
 }
 
 .contact .info .email:hover i,
