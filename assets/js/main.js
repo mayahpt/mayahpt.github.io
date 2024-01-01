@@ -4,6 +4,22 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+/**
+   * Automatic calculation for my age
+   */
+function calculateAge(birthDateString) {
+    var birthDate = new Date(birthDateString);
+    var today = new Date();
+    var age = today.getFullYear() - birthDate.getFullYear();
+    var m = today.getMonth() - birthDate.getMonth();
+    if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+        age--;
+    }
+    return age;
+  }
+
+  document.getElementById('age').textContent = calculateAge('1999-08-05');
+
 (function() {
   "use strict";
 
