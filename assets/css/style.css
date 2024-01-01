@@ -991,35 +991,33 @@ section {
   font-size: 20px;
   color: #45505b;
   float: left;
-  width: 44px;
-  height: 44px;
+  width: 34px; /* Reduced width for a smaller icon container */
+  height: 34px; /* Reduced height for a smaller icon container */
   background: #f2f3f5;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 50px;
   transition: all 0.3s ease-in-out;
+  margin-right: 10px; /* Added margin to the right of the icon */
 }
 
-.contact .info h4 {
-  padding: 0 0 0 60px;
-  font-size: 22px;
-  font-weight: 600;
-  margin-bottom: 5px;
-  color: #45505b;
-}
-
+.contact .info h4,
 .contact .info p {
-  padding: 0 0 0 60px;
-  margin-bottom: 0;
-  font-size: 14px;
-  color: #728394;
+  margin-left: 44px; /* Adjusted margin-left to align with the icon */
+  font-size: 22px; /* Keeping font size consistent for h4 */
+  font-weight: 600; /* Keeping font weight consistent for h4 */
+  margin-bottom: 5px; /* Keeping margin bottom consistent for h4 */
+  color: #45505b; /* Keeping color consistent for h4 */
+  font-size: 14px; /* font-size for paragraph */
+  color: #728394; /* color for paragraph */
 }
 
 .contact .info .email,
 .contact .info .phone {
   margin-top: 40px;
 }
+
 
 .contact .info .email:hover i,
 .contact .info .address:hover i,
