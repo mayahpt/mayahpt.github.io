@@ -284,16 +284,17 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.JPG") top right no-repeat;
-  background-size: cover;
+  background: url("../img/hero-bg.JPG") center no-repeat; /* Adjusted to center the image */
+  background-size: cover; /* cover to ensure it fills the space, can be changed to contain */
   position: relative;
 }
 
 @media (min-width: 992px) {
   #hero {
-    padding-left: 160px;
+    padding-left: 160px; /* Additional styling for larger screens */
   }
 }
+
 
 #hero:before {
   content: "";
@@ -368,7 +369,7 @@ section {
 }
 
 .section-title {
-  text-align: left;
+  text-align: centre;
   padding-bottom: 30px;
 }
 
@@ -405,7 +406,7 @@ section {
 }
 
 .section-title p {
-  text-align: center;
+  text-align: left;
   margin-bottom: 0;
 }
 
