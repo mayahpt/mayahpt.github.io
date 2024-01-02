@@ -405,6 +405,7 @@ section {
 }
 
 .section-title p {
+  text-align: center;
   margin-bottom: 0;
 }
 
