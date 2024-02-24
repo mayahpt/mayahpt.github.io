@@ -16,9 +16,17 @@ function calculateAge(birthDateString) {
         age--;
     }
     return age;
-  }
+}
 
-  document.getElementById('age').textContent = calculateAge('1999-08-05');
+// Calculate the age
+var age = calculateAge('1999-08-05');
+
+// Set the age in the paragraph
+document.getElementById('age-paragraph').textContent = age;
+
+// Set the age in the list item
+document.getElementById('age-list-item').textContent = age;
+
 
 (function() {
   "use strict";
