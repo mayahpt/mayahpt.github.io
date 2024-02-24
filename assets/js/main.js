@@ -289,5 +289,35 @@ document.getElementById('age-list-item').textContent = age;
    * Initiate Pure Counter 
    */
   new PureCounter();
+  /**
+   * Create item info page
+   */
+  // Function to open the modal
+function openModal(modalId) {
+    var modal = document.getElementById(modalId);
+    modal.style.display = "block";
+}
+
+// Function to close the modal
+function closeModal(modalId) {
+    var modal = document.getElementById(modalId);
+    modal.style.display = "none";
+}
+
+// Get all elements with the class "close" and attach a click event to them
+var closeButtons = document.getElementsByClassName("close");
+for (var i = 0; i < closeButtons.length; i++) {
+    closeButtons[i].onclick = function() {
+        var modal = this.parentElement.parentElement;
+        modal.style.display = "none";
+    }
+}
+
+// Close the modal if the user clicks outside of it
+window.onclick = function(event) {
+    if (event.target.className === "modal") {
+        event.target.style.display = "none";
+    }
+}
 
 })()
