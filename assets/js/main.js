@@ -11,8 +11,7 @@
    */
   // Function to open the modal
 // Call this function with the event and the modal ID
-function openModal(event, modalId) {
-  event.preventDefault(); // Prevent the anchor tag from following the link
+function openModal(modalId) {
   var modal = document.getElementById(modalId);
   modal.style.display = "block";
 }
