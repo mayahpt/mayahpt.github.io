@@ -400,7 +400,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #0563bb;
+  background: #bb7805;
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -479,7 +479,7 @@ section {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #0563bb;
+  background-color: #bb7805;
 }
 
 /*--------------------------------------------------------------
@@ -496,7 +496,7 @@ section {
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #0563bb;
+  border-left: 2px solid #728394;
   position: relative;
 }
 
@@ -506,7 +506,7 @@ section {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #0563bb;
+  color: #728394;
   margin-bottom: 10px;
 }
 
@@ -540,7 +540,7 @@ section {
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #0563bb;
+  border: 2px solid #728394;
 }
 
 /*--------------------------------------------------------------
