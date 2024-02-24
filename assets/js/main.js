@@ -10,10 +10,13 @@
    * Create item info page
    */
   // Function to open the modal
-function openModal(modalId) {
-    var modal = document.getElementById(modalId);
-    modal.style.display = "block";
+// Call this function with the event and the modal ID
+function openModal(event, modalId) {
+  event.preventDefault(); // Prevent the anchor tag from following the link
+  var modal = document.getElementById(modalId);
+  modal.style.display = "block";
 }
+
 
 // Function to close the modal
 function closeModal(modalId) {
