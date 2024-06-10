@@ -39,8 +39,9 @@ window.onclick = function(event) {
     }
 }
 
-/**   * Automatic calculation for my age
-   */
+/**
+ * Automatic calculation for my age
+ */
 function calculateAge(birthDateString) {
     var birthDate = new Date(birthDateString);
     var today = new Date();
@@ -48,18 +49,21 @@ function calculateAge(birthDateString) {
     var m = today.getMonth() - birthDate.getMonth();
     if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
         age--;
+    } else if (m === 0 && today.getDate() >= birthDate.getDate()) {
+        age++;
     }
     return age;
 }
 
 // Calculate the age
-var age = calculateAge('1999-08-05');
+var age = calculateAge('1999-05-08');
 
 // Set the age in the paragraph
 document.getElementById('age-paragraph').textContent = age;
 
 // Set the age in the list item
 document.getElementById('age-list-item').textContent = age;
+
 
 
 (function() {
