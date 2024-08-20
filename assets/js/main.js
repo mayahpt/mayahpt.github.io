@@ -54,8 +54,8 @@ function displayVisitorCount() {
 
 // Add event listener for key press (key "b")
 document.addEventListener('keydown', function(event) {
-    if (event.key === 'b' || event.key === 'B') {
-        displayVisitorCount(); // Display the visitor count when "b" is pressed
+    if (event.key === 'v' || event.key === 'V') {
+        displayVisitorCount(); // Display the visitor count when "v" is pressed
     }
 });
 
