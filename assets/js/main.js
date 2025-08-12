@@ -43,7 +43,7 @@ window.onclick = function(event) {
 function displayVisitorCount() {
     const visitorDiv = document.getElementById('visitor-count');
 
-    // Show the visitor count div only when the "b" key is pressed
+    // Show the visitor count div only when the "v" key is pressed
     visitorDiv.style.display = 'block';
 
     // Hide the visitor count after 3 seconds
@@ -52,7 +52,7 @@ function displayVisitorCount() {
     }, 3000); // 3000 milliseconds = 3 seconds
 }
 
-// Add event listener for key press (key "b")
+// Add event listener for key press (key "v")
 document.addEventListener('keydown', function(event) {
     if (event.key === 'v' || event.key === 'V') {
         displayVisitorCount(); // Display the visitor count when "v" is pressed
@@ -350,3 +350,4 @@ document.getElementById('age-list-item').textContent = age;
    */
   new PureCounter();
 })()
+
